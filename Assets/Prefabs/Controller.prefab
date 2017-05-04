@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1951821805628074}
+  m_IsPrefabParent: 1
+--- !u!1 &1951821805628074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4378504890571474}
+  - component: {fileID: 114847349528678092}
+  - component: {fileID: 114392841666729604}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4378504890571474
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951821805628074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.42623192, y: 2.26, z: -2.553204}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114392841666729604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951821805628074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf130b8142e7f2948b2929068156c4fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114847349528678092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951821805628074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11489a96c0c7ec44c9bc3e375b5b5600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialX: 1
+  initialZ: 1
+  selectShader: {fileID: 2100000, guid: 5b2516b423199bf4f95ef07c0374bcf0, type: 2}
+  cursorRing: {fileID: 100000, guid: 55d0a963ecec7c64e958d2512cc0a6bb, type: 3}
+  cursorShader: {fileID: 2100000, guid: 12a7482b86b5d474fbdd4eaf7eb5b77c, type: 2}
+  VRcontroller: {fileID: 0}
+  selectionRange: {fileID: 1285266282943618, guid: 58c9d51aaa060e94f9b2e050936a2476,
+    type: 2}
+  table: {fileID: 0}
+  clickBufferSize: 15
+  Target: {fileID: 1425356605448050, guid: dfd9ba2774992f14d970aaf3e1d66480, type: 2}
+  CurrentlySelectedUnits: []
